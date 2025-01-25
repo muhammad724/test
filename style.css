@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.nav-btn{
+    padding: 9.74px 22.55px;
+    background-color: #4CAF4F;
+    border: transparent;
+    border-radius: 4px;
+}
+
+.clr{
+    color: #4CAF4F;
+}
+
+.main .col-7{
+   margin-top: 4rem;
+   padding-left: 35px;
+
+}
+.main .col-5{
+    margin-top: 4rem;
+    padding-left:5rem;
+}
+
+.text{
+    margin-top: 2rem;
+    color: grey;
+    font-size: 44.55px;
+    font-weight: 600;
+
+}
+
+.color-txt{
+    color: grey;
+    width: 90%;
+
+}
+.box{
+    padding: 9.74px 22.27px;
+    color: white;
+    background-color: #4CAF4F;
+    border: transparent;
+    border-radius: 2px;
+    margin-top: 4rem;
+}
+
+.section-2{
+    margin-top: 4rem;
+    text-align: center;
+}
+.logo-2{
+    width: 100%;
+}
+.logo-2 img{
+    gap: 40px;
+}
+.cont-2{
+    text-align: center;
+    margin-top: 2rem;
+}
+.description{
+    text-align: center
+}
+
+.section-3 .col-4{
+    text-align: center;
+    width: 250px;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.head-last{
+    margin-top: 3rem;
+    text-align: center;
+}   
+.last{
+    border: transparent;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding: 9.74px 22.55px;
+    background-color: #4CAF4F;
+    margin-left: 41.5%;
+ 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+     .main .row{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        width: 100%;
+     }
+     .main{
+        width: 100%;
+        text-align: center;
+        flex-wrap:nowrap;
+     }
+    .col-7 .text{
+        font-size: 1.7rem;
+        
+     }
+     .color-txt{
+        font-size: 0.8rem;
+     }
+     .box{
+        width: 100%;
+     }
+    .col-5{
+        margin-bottom: 2rem;
+        margin-right: 13rem;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-3 .row{
+        width: 100%;
+        text-align: center;
+        padding-right: 60px ;
+    }
+    
+}
+
+
+.lists{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    padding-left: 40px;
+}
+li{ 
+    
+    list-style-type: none;
+}
+.about{
+    width: 20rem;
+}
+
+.top{
+    padding-bottom: 50px;
+}
+.footer{
+    background-color: rgb(78, 75, 75);
+    color: white;
+    margin-top: 3rem;
+}
+
+
+@media (max-width:759px){
+    .section-3 .row{
+        text-align: center;
+        margin-left: 0rem;
+        
+    }
+li{
+    width: 100%;
+    
+}
+}
